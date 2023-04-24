@@ -1,5 +1,5 @@
 body {
-	background-color: #001e57;
+	background-color: #236379;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 }
@@ -17,7 +17,7 @@ header h2 {
 header li {
 	display: inline;
 }
-header li:after {
+header li:not(:last-child):after {
 	content: '|';
 	padding: 0 .5rem;
 }
